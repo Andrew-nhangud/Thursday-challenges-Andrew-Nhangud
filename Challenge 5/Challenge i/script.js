@@ -8,7 +8,7 @@ const minuteOfDay = 0;
 
 // Only change below this line
 const isTime = hourOfDay === 0 && minuteOfDay === 0; // check to see if it is midnight aka 00:00
-letbalance = undefined;
+let balance = undefined;
 
 if (isTime) {
   const taxAsDecimal = parseInt(tax) / 100;
